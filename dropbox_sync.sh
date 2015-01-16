@@ -6,7 +6,6 @@
 SYNC_CHECK_INTERVAL=5
 
 echo "Start sync..."
-    dropbox stop
     dropbox start
     while true ; do
         status="$( dropbox status )"
